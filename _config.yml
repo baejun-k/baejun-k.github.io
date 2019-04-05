@@ -65,8 +65,8 @@ search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia
 algolia:
   application_id         : EW0FD1RGOJ # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : 6ef11469d1e257f2d05335476e5a51be # YOUR_SEARCH_ONLY_API_KEY
+  index_name             : baejun-k.github # YOUR_INDEX_NAME
+  search_only_api_key    : 24d213775d593cec70a6a812c704a081 # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
   files_to_exclude:
     # - _posts/2017-11-28-post-exclude-search.md
