@@ -7,6 +7,6 @@ main:
   # - title: "Collections"
   #   url: /collection-archive/
   - title: "Categories"
-    url: /category-archive/
+    url: /categories-archive/
   - title: "Tags"
-    url: /tag-archive/
+    url: /tags-archive/
