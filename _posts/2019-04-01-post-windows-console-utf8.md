@@ -14,6 +14,7 @@ tags:
   - windows
   - 인코딩
   - encoding
+toc: true
 ---
   
 1. regedit 실행  
