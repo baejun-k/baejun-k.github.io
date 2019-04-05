@@ -16,8 +16,8 @@ title_separator          : "-"
 name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://baejun-k.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/note-blog" # the subpath of your site, e.g. "/blog"
-repository               : "baejun-k/note-blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "baejun-k/baejun-k.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -65,7 +65,7 @@ search_full_content      : # true, false (default)
 search_provider          : algolia # lunr (default), algolia
 algolia:
   application_id         : EW0FD1RGOJ # YOUR_APPLICATION_ID
-  index_name             : baejun-k # YOUR_INDEX_NAME
+  index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : 6ef11469d1e257f2d05335476e5a51be # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
   files_to_exclude:
