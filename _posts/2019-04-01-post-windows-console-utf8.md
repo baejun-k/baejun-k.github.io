@@ -3,9 +3,7 @@ title: "[console] Windows 10 encoding utf-8 기본 설정하기"
 date: 2019-04-01
 excerpt: "윈도우 콘솔창 codepage 인코딩을 utf-8로 바꾸기"
 categories:
-  - console
-  - windows
-  - encoding
+  - settings
 tags:
   - console
   - utf8
