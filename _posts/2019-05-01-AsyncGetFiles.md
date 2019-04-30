@@ -64,4 +64,4 @@ public Task<string[]> AsyncGetFiles(this DirectoryInfo dir, Action<string> handl
 그래서 DirectoryInfo Class의 [Extension Method](https://github.com/baejun-k/AsyncGetFiles/blob/master/AsyncGetFiles/DirectoryInfoExtensionClass.cs)로 확장하였다.  
   
 * 결과  
-![결과](https://github.com/baejun-k/baejun-k.github.io/blob/master/assets/images/asyncgetfilescapture.PNG)  
+![결과](/assets/images/asyncgetfilescapture.PNG)  
