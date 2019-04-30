@@ -3,7 +3,6 @@ title: "[c#] CaptionButton 모양, FlatButton Style"
 excerpt: "custom ui를 자주하게 돼서 작성 함."
 date: 2019-04-04
 categories:
-  - csharp
   - programming
 tags:
   - button
