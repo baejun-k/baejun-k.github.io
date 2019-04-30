@@ -61,5 +61,7 @@ public Task<string[]> AsyncGetFiles(this DirectoryInfo dir, Action<string> handl
   
 검색하다 중간에 취소도 가능하며 검색할 파일이름의 패턴도 정할 수 있게 확장하고 편하게 사용하기위해 Extension Method로 구현하였는데,  
 이를 System.IO.Directory Class에 넣고 싶었지만 static class기 때문에 Extension Method 사용이 불가하다.  
-그래서 DirectoryInfo Class에 Extension Method로 확장하였다.
+그래서 DirectoryInfo Class의 [Extension Method](https://github.com/baejun-k/AsyncGetFiles/blob/master/AsyncGetFiles/DirectoryInfoExtensionClass.cs)로 확장하였다.  
   
+* 결과  
+![결과](https://github.com/baejun-k/baejun-k.github.io/blob/master/assets/images/asyncgetfilescapture.PNG)  
