@@ -58,10 +58,9 @@ public Task<string[]> AsyncGetFiles(this DirectoryInfo dir, Action<string> handl
 ```  
 기본형태에서는 폴더 아래의 파일을 읽어오는 명령어를 콘솔에 실행시키는 Process를 만든 후 결과로 출력되는 값을 읽어와 사용한다.  
 비동기로 작업을 하며 파일이 부분적으로 찾아질 때마다 Handler를 통해 작업을 해주며 나중에 파일 찾기 완료 후 찾은 모든 파일이름을 배열로 반환한다.  
-  
-검색하다 중간에 취소도 가능하며 검색할 파일이름의 패턴도 정할 수 있게 확장하고 편하게 사용하기위해 Extension Method로 구현하였는데,  
+검색 중간 취소기능과 검색할 파일 이름의 패턴 설정을 할 수 있게 확장하고 편하게 사용하기위해 Extension Method로 구현하였는데,  
 이를 System.IO.Directory Class에 넣고 싶었지만 static class기 때문에 Extension Method 사용이 불가하다.  
-그래서 DirectoryInfo Class의 [Extension Method](https://github.com/baejun-k/AsyncGetFiles/blob/master/AsyncGetFiles/DirectoryInfoExtensionClass.cs)로 확장하였다.  
+그래서 차선으로 DirectoryInfo Class의 [Extension Method](https://github.com/baejun-k/AsyncGetFiles/blob/master/AsyncGetFiles/DirectoryInfoExtensionClass.cs)로 확장하였다.  
   
 * 결과  
 ![결과](/assets/images/asyncgetfilescapture.PNG)  
