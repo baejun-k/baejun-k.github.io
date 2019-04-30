@@ -107,8 +107,8 @@ analytics:
 author:
   name             : "BaeJun Kang" # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I like computer"
-  location         : "South Korea"
+  bio              : "I like programming."
+  location         : "Busan, South Korea"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -124,8 +124,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/baejun-k"
-      # url:
-
+      
 
 # Reading Files
 include:
