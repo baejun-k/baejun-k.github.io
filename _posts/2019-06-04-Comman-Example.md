@@ -143,7 +143,7 @@ public class AsyncRelayCommand : ICommand {
 
 __스크린샷__
 
-<figure style="width: 200px" class="align-left">
+<figure style="width: 200px" class="align-center">
   <img src="/assets/images/PostCommandSample/command_sample1.PNG" alt="">
   <figcaption>기본화면</figcaption>
   <img src="/assets/images/PostCommandSample/command_sample2.PNG" alt="">
