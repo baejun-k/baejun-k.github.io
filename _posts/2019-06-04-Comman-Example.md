@@ -143,4 +143,4 @@ public class AsyncRelayCommand : ICommand {
 
 __스크린샷__
 
-![1](/assets/images/PostCommandSample/command_sample1.PNG) ![2](/assets/images/PostCommandSample/command_sample2.PNG) ![3](/assets/images/PostCommandSample/command_sample3.PNG) ![4](/assets/images/PostCommandSample/command_sample4.PNG)
+![1](/assets/images/PostCommandSample/command_sample1.PNG =250x170) ![2](/assets/images/PostCommandSample/command_sample2.PNG =250x170) ![3](/assets/images/PostCommandSample/command_sample3.PNG =250x170) ![4](/assets/images/PostCommandSample/command_sample4.PNG =250x170)
