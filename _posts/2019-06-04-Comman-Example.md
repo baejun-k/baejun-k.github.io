@@ -19,8 +19,8 @@ WPF 프로젝트로 작성된 예제임.
 
 ``` csharp
 namespace System.Windows.Input {
-  public interface ICommand {
-		event EventHandler CanExecuteChanged;
+	public interface ICommand {
+  		event EventHandler CanExecuteChanged;
 		bool CanExecute(object parameter);
 		void Execute(object parameter);
 	}
@@ -143,7 +143,7 @@ public class AsyncRelayCommand : ICommand {
 
 __스크린샷__
 
-{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/PostCommandSample/command_sample1.PNG"){% endraw %}
-{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/PostCommandSample/command_sample2.PNG"){% endraw %}
-{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/PostCommandSample/command_sample3.PNG"){% endraw %}
-{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/PostCommandSample/command_sample4.PNG"){% endraw %}
+![1]({{ site.url }}{{ site.baseurl }}/assets/images/PostCommandSample/command_sample1.PNG")  
+![2]({{ site.url }}{{ site.baseurl }}/assets/images/PostCommandSample/command_sample2.PNG")
+![3]({{ site.url }}{{ site.baseurl }}/assets/images/PostCommandSample/command_sample3.PNG")
+![4]({{ site.url }}{{ site.baseurl }}/assets/images/PostCommandSample/command_sample4.PNG")
