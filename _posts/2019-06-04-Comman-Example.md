@@ -143,4 +143,22 @@ public class AsyncRelayCommand : ICommand {
 
 __스크린샷__
 
-![1](/assets/images/PostCommandSample/command_sample1.PNG =250x170) ![2](/assets/images/PostCommandSample/command_sample2.PNG =250x170) ![3](/assets/images/PostCommandSample/command_sample3.PNG =250x170) ![4](/assets/images/PostCommandSample/command_sample4.PNG =250x170)
+<figure style="width: 150px" class="align-left">
+  <img src="/assets/images/PostCommandSample/command_sample1.PNG" alt="">
+  <figcaption>기본화면</figcaption>
+</figure> 
+
+<figure style="width: 150px" class="align-left">
+  <img src="/assets/images/PostCommandSample/command_sample2.PNG" alt="">
+  <figcaption>Command 클릭</figcaption>
+</figure> 
+
+<figure style="width: 150px" class="align-left">
+  <img src="/assets/images/PostCommandSample/command_sample3.PNG" alt="">
+  <figcaption>비동기 Command 작업 중</figcaption>
+</figure> 
+
+<figure style="width: 150px" class="align-left">
+  <img src="/assets/images/PostCommandSample/command_sample4.PNG" alt="">
+  <figcaption>비동기 Command 작업 종료 후</figcaption>
+</figure> 
