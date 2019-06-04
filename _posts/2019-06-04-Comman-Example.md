@@ -152,5 +152,5 @@ public class AsyncRelayCommand : ICommand {
 
 __스크린샷__
 
-{% raw %}{% include gallery id="gallery1" caption="작동 스크린샷" %}{% endraw %}
+{% include gallery id="gallery1" class="full" caption="작동 스크린샷" %}
 
