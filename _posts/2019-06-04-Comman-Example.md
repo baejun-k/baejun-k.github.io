@@ -10,6 +10,15 @@ tags:
   - command
   - relaycommand
 link: https://github.com/baejun-k/CommandExample
+gallery1:
+  - image_path: /assets/images/PostCommandSample/command_sample1.PNG
+    alt: "placeholder image 2"
+  - image_path: /assets/images/PostCommandSample/command_sample2.PNG
+    alt: "placeholder image 2"
+  - image_path: /assets/images/PostCommandSample/command_sample3.PNG
+    alt: "placeholder image 2"
+  - image_path: /assets/images/PostCommandSample/command_sample4.PNG
+    alt: "placeholder image 2"
 ---  
 
 c#에서 ICommand 인터페이스를 통해 쉽게 사용가능하고, ICommand를 통한 Command 기본 사용법과 예제를 포스팅한다.  
@@ -143,14 +152,5 @@ public class AsyncRelayCommand : ICommand {
 
 __스크린샷__
 
-<figure style="width: 200px" class="align-center">
-  <img src="/assets/images/PostCommandSample/command_sample1.PNG" alt="">
-  <figcaption>기본화면</figcaption>
-  <img src="/assets/images/PostCommandSample/command_sample2.PNG" alt="">
-  <figcaption>Command 클릭</figcaption>
-  <img src="/assets/images/PostCommandSample/command_sample3.PNG" alt="">
-  <figcaption>비동기 Command 작업 중</figcaption>
-  <img src="/assets/images/PostCommandSample/command_sample4.PNG" alt="">
-  <figcaption>비동기 Command 작업 종료 후</figcaption>
-</figure>  
+{% raw %}{% include gallery id="gallery1" caption="작동 스크린샷" %}{% endraw %}
 
