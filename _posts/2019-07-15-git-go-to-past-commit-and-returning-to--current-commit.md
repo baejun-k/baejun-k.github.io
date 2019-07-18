@@ -11,7 +11,7 @@ tags:
   - log
 ---  
 
-##  
+#  
 * 과거의 commit으로 이동  
   
 특정 수 만큼 과거로 가고싶을 때(바로 전이나 비교적 최근을 갈 때 편리)  
@@ -24,7 +24,7 @@ $ git checkout HEAD~1
 $ git checkout HEAD~10
 ```  
 
-##  
+#  
 * 특정 commit으로 이동  
   
 commit 메시지를 확인하고 해당 커밋으로 이동 할 때
@@ -49,7 +49,7 @@ $ git log
 $ git checkout 4d2af6
 ```  
 
-##  
+#  
 * 과거 commit 확인 후 다시 돌아가기
   
 ``` console
